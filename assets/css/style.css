@@ -360,10 +360,15 @@ main {
 }
 
 /* Responsive adjustments */
+
 @media (max-width: 768px) {
   .avatar-box {
     width: 120px;
     height: 120px;
+  }
+
+  #portrait-logo {
+    width: 45px;
   }
 }
 
@@ -1897,6 +1902,10 @@ textarea.form-input::-webkit-resizer {
   /**
    * REUSED STYLE
    */
+
+  #portrait-logo {
+    width: 55px;
+  }
 
   .sidebar,
   article {
