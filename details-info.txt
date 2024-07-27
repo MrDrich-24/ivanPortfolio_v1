@@ -1,0 +1,26 @@
+changed --smoky-black
+changed --eerie-black-2
+changed --orange-yellow-crayola
+
+.avatar-box {
+  background: var(--bg-gradient-onyx);
+  /* position: relative; */
+  /* background: var(--bg-gradient-jet); */
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+Web Development
+Mobile App Development
+Data Analysis
+Graphic Design
+
+Tools:
+VScode
+Laravel
+Xammp
+phpMyadmin
+jquery
+Figma
+Canva
