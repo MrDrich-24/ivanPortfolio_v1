@@ -28,7 +28,7 @@
   --bg-gradient-yellow-2: linear-gradient(
       135deg,
       /* hsla(45, 100%, 71%, 0.251) 0%,  */ #45a29e 0%,
-      /* var(--smoky-black) 0%, */ hsla(35, 100%, 68%, 0) 59.86%
+      /* var(--sky-blue) 0%, */ hsla(35, 100%, 68%, 0) 59.86%
     ),
     hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
@@ -47,8 +47,8 @@
   --dark-mint: #45a29e;
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: #1f2833;
-  --smoky-black: #0b0c10;
+  --dark-blue: #094067;
+  --sky-blue: #3da9fc;
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --mint: #66fcf1;
@@ -145,7 +145,7 @@ textarea {
 
 ::selection {
   background: var(--mint);
-  color: var(--smoky-black);
+  color: var(--sky-blue);
 }
 
 :focus {
@@ -157,7 +157,7 @@ html {
 }
 
 body {
-  background: var(--smoky-black);
+  background: var(--sky-blue);
 }
 
 /*-----------------------------------*\
@@ -166,7 +166,7 @@ body {
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--dark-blue);
   border: 1px solid var(--dark-mint);
   border-radius: 20px;
   padding: 15px;
@@ -733,7 +733,7 @@ main {
 }
 
 .testimonials-modal {
-  background: var(--eerie-black-2);
+  background: var(--dark-blue);
   position: relative;
   padding: 15px;
   margin: 15px 12px;
@@ -921,7 +921,7 @@ main {
   background: var(--mint);
   border-radius: 50%;
   /* box-shadow: 0 0 0 4px var(--dark-mint); */
-  box-shadow: 0 0 0 4px var(--smoky-black);
+  box-shadow: 0 0 0 4px var(--sky-blue);
 }
 
 .timeline-text {
@@ -993,7 +993,7 @@ main {
 }
 
 .filter-select {
-  background: var(--eerie-black-2);
+  background: var(--dark-blue);
   color: var(--light-gray);
   display: flex;
   justify-content: space-between;
@@ -1011,7 +1011,7 @@ main {
 }
 
 .select-list {
-  background: var(--eerie-black-2);
+  background: var(--dark-blue);
   position: absolute;
   top: calc(100% + 6px);
   width: 100%;
@@ -1032,7 +1032,7 @@ main {
 }
 
 .select-item button {
-  background: var(--eerie-black-2);
+  background: var(--dark-blue);
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -1043,7 +1043,7 @@ main {
 }
 
 .select-item button:hover {
-  --eerie-black-2: hsl(240, 2%, 20%);
+  --dark-blue: hsl(240, 2%, 20%);
 }
 
 .project-list {
@@ -2133,19 +2133,22 @@ textarea.form-input::-webkit-resizer {
   }
 
   body::-webkit-scrollbar-track {
-    background: var(--smoky-black);
+    background: var(--sky-blue);
+    /* background: red; */
   }
 
   body::-webkit-scrollbar-thumb {
-    border: 5px solid var(--smoky-black);
-    background: hsla(0, 0%, 100%, 0.1);
+    border: 5px solid var(--sky-blue);
+    /* background: hsla(0, 0%, 100%, 0.1); */
+    background: var(--dark-blue);
     border-radius: 20px;
     box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
       inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
   }
 
   body::-webkit-scrollbar-thumb:hover {
-    background: hsla(0, 0%, 100%, 0.15);
+    /* background: hsla(0, 0%, 100%, 0.15); */
+    background: var(--mint);
   }
 
   body::-webkit-scrollbar-button {
