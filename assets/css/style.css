@@ -49,6 +49,7 @@
   --eerie-black-1: hsl(240, 2%, 13%);
   --dark-blue: #094067;
   --sky-blue: #3da9fc;
+  
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --mint: #66fcf1;
@@ -157,7 +158,8 @@ html {
 }
 
 body {
-  background: var(--sky-blue);
+  /* background: var(--sky-blue); */
+  background: whitesmoke;
 }
 
 /*-----------------------------------*\
@@ -2133,12 +2135,14 @@ textarea.form-input::-webkit-resizer {
   }
 
   body::-webkit-scrollbar-track {
-    background: var(--sky-blue);
+    /* background: var(--sky-blue); */
+    background: whitesmoke;
     /* background: red; */
   }
 
   body::-webkit-scrollbar-thumb {
-    border: 5px solid var(--sky-blue);
+    /* border: 5px solid var(--sky-blue); */
+    border: 5px solid whitesmoke;
     /* background: hsla(0, 0%, 100%, 0.1); */
     background: var(--dark-blue);
     border-radius: 20px;
